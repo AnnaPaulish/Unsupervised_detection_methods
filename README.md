@@ -3,7 +3,7 @@ In this repository you can find the implementation of the Semester Project: "Uns
 
 ## Table of content
 - [the description of the project task](#Introduction)
-- [datasets used](#datasets)
+- [datasets overview](#datasets)
 - [the code structure](#code_structure)
 - [how to run the code](#run)
 - [perspectives](#outlook)
@@ -11,10 +11,10 @@ In this repository you can find the implementation of the Semester Project: "Uns
 # <a name="Introduction"></a>  Introduction
 This project focuses on implementation of unsupervised Machine Learning methods for outlier detection to avoid mistakes when manually labeling data 
 using deeplabcut GUI before the training process.
-<div style="width:600px">
 
-![labels](imgs/labels1.png)
-</div>
+<p align="center">
+</br> <img src="./imgs/labels1.png " width="600"></br>
+</p>
 The main idea is to obtain the geometric features of labels on images, cluster labels using unsupervised Machine Learning methods, and identify images with bad labels.
 
 You can see the general pipeline below:
@@ -26,15 +26,21 @@ You can see the general pipeline below:
 3. PCA.
 4. Clustering.
 
-# <a name="datasets"></a> Datasets
+# <a name="datasets"></a>  Dataset overview
 
 For this project we used the following datasets:
-- [Mice dataset](https://zenodo.org/record/4008504#.Yds2QmjMI2z): 
-	- part of the dataset: 116 images
-	- whole dataset: 1178 images 
-- [Horse dataset](http://www.mackenziemathislab.org/horse10):
-	- 3069 images
+- [Mice dataset](https://zenodo.org/record/4008504#.Yds2QmjMI2z): 1178 images 
+	
+<p align="center">
+</br> <img src="./imgs/micedataset.png " width="500"></br>
+</p>
 
+
+
+- [Horse dataset](http://www.mackenziemathislab.org/horse10): 3069 images
+<p align="center">
+</br> <img src="./imgs/micedataset.png " width="500"></br>
+</p>
 
 
 # <a name="code_structure"></a>  The code structure
