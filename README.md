@@ -44,8 +44,19 @@ For this project we used the following datasets:
 
 
 ## <a name="code_structure"></a>  The code structure
+In the folder `horse_dataset` contains horse-10 data set.
+
+In the folder `scripts` you can find two files:
+- `clustering_and_LRtest_mice.ipynb` - consisting the code for mice data set
+- `clustering_and_LRtest_horse.ipynb` - consisting the code for horse-10 data set
 
 ## <a name="run"></a> Running the code 
+
+Clone the repository to your preferred location using the following command:
+```
+git clone https://github.com/AnnaPaulish/Unsupervised_detection_methods.git
+```
+Then open the code using [Jupyter notebook](https://jupyter.org/).
 
 ## <a name="outlook"></a> Conclution and Perspectives
 We can see that the geometric features for horse data not sufficient for solving the problem.
