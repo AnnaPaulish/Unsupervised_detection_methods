@@ -99,6 +99,6 @@ The horse data is much more complex than mice data because they have more body p
 If we want to solve to detect bad labels in real-life images we need to consider other features or methods.
 
 Future steps:
-- Find impact of the swapping or other errors to the performance of DLC algorithm
+- Find impact of other errors on the performance of the DLC algorithm
 - Explore already existing methods with visual transformers and apply them to our data set
 
