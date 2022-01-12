@@ -72,7 +72,7 @@ Firstly, we add swap ears errors for the dataset in six different proportions: 0
 
 Then we train the network with the DLC algorithm and run 6 different experiments to see how many images with errors are identified.
 
-The results of this experiment you can below.
+The results of this experiment you can see below.
 
 _graph_
 
