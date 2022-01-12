@@ -52,23 +52,27 @@ You can see the results of k-means and dbscan clustering method applied to mice 
 </p>
 
 </br>
+
 The same clustering methods doesn't allow to indicate all corruted images for horse data. The main challenge of horse data is that images are very different:
 - more body parts
 - different quality of images
 - sometimes only part of the horse is visible
 
 <p align="center">
-</br> <img src="./imgs/horses.png " width="600"></br>
+</br> <img src="./imgs/horses.png " width="800"></br>
 </p>
 
-Challenge of horse data:
 
 ### <a name="impact"></a>  Impact of the swapping errors
 
-- added errors (0,0.2,...)
-- run 6 experiments
-- trained the network with DLC
-- the results
+To understand how the swapping error will affect the performance of the DLC algorithm we conducted the following experiment.
+Here we consider the [mice dataset](https://raw.githubusercontent.com/DeepLabCut/DeepLabCut/master/examples/openfield-Pranav-2018-10-30/labeled-data/m4s1/CollectedData_Pranav.csv).
+
+Firstly, we add swap ears errors for the dataset in six different proportions: 0 (without corrupted images), 0.2 (20% of images have ears swap error), 0.4, 0.6, 0.8 and 1 (all images have ears swap error).
+
+Then we train the network with the DLC algorithm and run 6 different experiments to see how many images with errors are identified.
+
+The results of this experiment you can below.
 
 _graph_
 
