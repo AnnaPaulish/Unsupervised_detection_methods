@@ -42,6 +42,14 @@ For this project we used the following datasets:
 </br> <img src="./imgs/horsedataset.png " width="500"></br>
 </p>
 
+## <a name="impact"></a>  Impact of the swapping errors
+
+- added errors (0,0.2,...)
+- run 6 experiments
+- trained the network with DLC
+- the results
+
+_graph_
 
 ## <a name="code_structure"></a>  The code structure
 In the folder `horse_dataset` contains horse-10 data set.
