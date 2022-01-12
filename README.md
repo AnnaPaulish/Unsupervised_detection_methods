@@ -33,8 +33,8 @@ For this project we used the following datasets:
 </br> <img src="./imgs/horsedataset.png " width="500"></br>
 </p>
 
-## Methods descroption
-### Unsupervised ML methods
+## Methods description
+### Unsupervised ML methods: k-means and DBSCAN
 The main idea is to obtain the geometric features of labels on images, cluster labels using unsupervised Machine Learning methods, and identify images with bad labels.
 
 You can see the general pipeline below:
