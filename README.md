@@ -15,16 +15,7 @@ using deeplabcut GUI before the training process.
 <p align="center">
 </br> <img src="./imgs/labels1.png " width="600"></br>
 </p>
-The main idea is to obtain the geometric features of labels on images, cluster labels using unsupervised Machine Learning methods, and identify images with bad labels.
 
-You can see the general pipeline below:
-1. Data visualization.
-2. Computing features: 
-      - the distance between every two body parts;
-      - angle and angle sign between three points
-	  (e. g. left ear, snout, right ear).
-3. PCA.
-4. Clustering.
 
 ## <a name="datasets"></a>  Dataset overview
 
@@ -42,7 +33,26 @@ For this project we used the following datasets:
 </br> <img src="./imgs/horsedataset.png " width="500"></br>
 </p>
 
-## <a name="impact"></a>  Impact of the swapping errors
+## Methods descroption
+### Unsupervised ML methods
+The main idea is to obtain the geometric features of labels on images, cluster labels using unsupervised Machine Learning methods, and identify images with bad labels.
+
+You can see the general pipeline below:
+1. Data visualization.
+2. Computing features: 
+      - the distance between every two body parts;
+      - angle and angle sign between three points
+	  (e. g. left ear, snout, right ear).
+3. PCA.
+4. Clustering.
+
+Results for mice data:
+graphs <- well
+Results for horse data:
+<- 
+Challenge of horse data:
+
+### <a name="impact"></a>  Impact of the swapping errors
 
 - added errors (0,0.2,...)
 - run 6 experiments
