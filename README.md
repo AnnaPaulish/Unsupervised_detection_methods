@@ -46,10 +46,21 @@ You can see the general pipeline below:
 3. PCA.
 4. Clustering.
 
-Results for mice data:
-graphs <- well
-Results for horse data:
-<- 
+You can see the results of k-means and dbscan clustering method applied to mice dataset with 40% of corrupted images below:
+<p align="center">
+</br> <img src="./imgs/clustering.png " width="600"></br>
+</p>
+
+</br>
+The same clustering methods doesn't allow to indicate all corruted images for horse data. The main challenge of horse data is that images are very different:
+- more body parts
+- different quality of images
+- sometimes only part of the horse is visible
+
+<p align="center">
+</br> <img src="./imgs/horses.png " width="600"></br>
+</p>
+
 Challenge of horse data:
 
 ### <a name="impact"></a>  Impact of the swapping errors
