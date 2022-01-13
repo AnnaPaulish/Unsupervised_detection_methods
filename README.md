@@ -108,7 +108,7 @@ We can see that the geometric features for horse data not sufficient for solving
 
 The horse data is much more complex than mice data because they have more body parts and different types of images, sometimes only part of the horse is visible.
 
-If we want to solve to detect bad labels in real-life images we need to consider other features or methods.
+If we want to detect bad labels in real-life images we need to consider other features or methods.
 
 Future steps:
 - Find impact of other errors on the performance of the DLC algorithm
