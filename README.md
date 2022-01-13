@@ -86,8 +86,7 @@ In the graph below, you can see the [mean Average Precision](https://cocodataset
 </br> <img src="./imgs/impact2.png " width="600"></br>
 </p>
 
-As we can see from these graphs, the DLC algorithm makes the most mistakes on the test sample when 80% of the images contain a swap ears error.
-The main limitation of the method is that the test sample contains only 6 images and for a better understanding of the effect, more data should be used in the future experiments.
+As we can see from these graphs, the DLC algorithm makes the most mistakes on the test sample when 80% of the images contain a swap ears error. The expected training error graph is Gaussian function but the main limitation of used method is that we used dataset of 116 images where the test sample contains only 6 images. For a better understanding of the effect, more data should be used in the future experiments.
 
 ## <a name="code_structure"></a>  The code structure
 In the folder `horse_dataset` contains horse-10 data set.
