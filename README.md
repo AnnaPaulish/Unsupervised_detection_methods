@@ -74,15 +74,19 @@ Firstly, we add swap ears error on image in the mice dataset in 6 different prop
 
 Then we train the network with the DLC algorithm and run 6 different experiments to see how many images with errors are identified.
 
-In the left graph below, you can see the error of the DLC algorithm in pixels on train and test samples depending on the number of corrupted images.
-
-In the right graph below, you can see the accuracy of the DLC algorithm on train and test samples depending on the number of corrupted images.
+In the graph below, you can see the error of the DLC algorithm in pixels on train and test samples depending on the number of corrupted images.
 
 <p align="center">
-</br> <img src="./imgs/impact.png " width="800"></br>
+</br> <img src="./imgs/impact1.png " width="800"></br>
 </p>
 
-The main limitation of the method is the test sample size - it contains only 6 images.
+In the graph below, you can see the [mean Average Precision](https://cocodataset.org/#keypoints-eval) of the DLC algorithm on train and test samples depending on the number of corrupted images.
+
+<p align="center">
+</br> <img src="./imgs/impact2.png " width="800"></br>
+</p>
+
+The main limitation of the method is that the test sample contains only 6 images. 
 
 ## <a name="code_structure"></a>  The code structure
 In the folder `horse_dataset` contains horse-10 data set.
