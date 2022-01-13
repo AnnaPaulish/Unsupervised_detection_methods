@@ -4,6 +4,7 @@ In this repository you can find the implementation of the Semester Project: "Uns
 ## Table of content
 - [the description of the project task](#Introduction)
 - [datasets overview](#datasets)
+- [description of methods](#methods)
 - [the code structure](#code_structure)
 - [how to run the code](#run)
 - [perspectives](#outlook)
@@ -33,7 +34,8 @@ For this project we used the following datasets:
 </br> <img src="./imgs/horsedataset.png " width="500"></br>
 </p>
 
-## Methods description
+## <a name="methods"></a> Methods description
+
 ### Unsupervised ML methods: k-means and DBSCAN
 The main idea is to obtain the geometric features of labels on images, cluster labels using unsupervised Machine Learning methods, and identify images with bad labels.
 
@@ -63,18 +65,24 @@ The same clustering methods doesn't allow to indicate all corruted images for ho
 </p>
 
 
-### <a name="impact"></a>  Impact of the swapping errors
+###  Impact of the swap ears error
 
-To understand how the swapping error will affect the performance of the DLC algorithm we conducted the following experiment.
+To understand how the swap ears error affect the performance of the DLC algorithm we conducted the following experiment.
 Here we consider the [mice dataset](https://raw.githubusercontent.com/DeepLabCut/DeepLabCut/master/examples/openfield-Pranav-2018-10-30/labeled-data/m4s1/CollectedData_Pranav.csv).
 
-Firstly, we add swap ears errors for the dataset in six different proportions: 0 (without corrupted images), 0.2 (20% of images have ears swap error), 0.4, 0.6, 0.8 and 1 (all images have ears swap error).
+Firstly, we add swap ears error on image in the mice dataset in 6 different proportions: 0 (without corrupted images), 0.2 (20% of images have ears swap error), 0.4, 0.6, 0.8 and 1 (all images have ears swap error).
 
 Then we train the network with the DLC algorithm and run 6 different experiments to see how many images with errors are identified.
 
-The results of this experiment you can see below.
+In the left graph below, you can see the error of the DLC algorithm in pixels on train and test samples depending on the number of corrupted images.
 
-_graph_
+In the right graph below, you can see the accuracy of the DLC algorithm on train and test samples depending on the number of corrupted images.
+
+<p align="center">
+</br> <img src="./imgs/impact.png " width="800"></br>
+</p>
+
+The main limitation of the method is the test sample size - it contains only 6 images.
 
 ## <a name="code_structure"></a>  The code structure
 In the folder `horse_dataset` contains horse-10 data set.
