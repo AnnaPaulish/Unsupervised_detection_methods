@@ -77,13 +77,13 @@ Then we train the network with the DLC algorithm and run 6 different experiments
 In the graph below, you can see the error of the DLC algorithm in pixels on train and test samples depending on the number of corrupted images.
 
 <p align="center">
-</br> <img src="./imgs/impact1.png " width="800"></br>
+</br> <img src="./imgs/impact1.png " width="600"></br>
 </p>
 
 In the graph below, you can see the [mean Average Precision](https://cocodataset.org/#keypoints-eval) of the DLC algorithm on train and test samples depending on the number of corrupted images.
 
 <p align="center">
-</br> <img src="./imgs/impact2.png " width="800"></br>
+</br> <img src="./imgs/impact2.png " width="600"></br>
 </p>
 
 The main limitation of the method is that the test sample contains only 6 images. 
