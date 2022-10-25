@@ -1,5 +1,4 @@
 # Unsupervised Machine Learning Methods for outlier detection 
-In this repository you can find the implementation of the Semester Project: "Unsupervised Machine Learning Methods for outlier detection"
 
 ## Table of content
 - [the description of the project task](#Introduction)
